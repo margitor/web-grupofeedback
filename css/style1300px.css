@@ -1,0 +1,28 @@
+/* estilos main */
+
+.container-main {
+    width: 90%;
+    height: 70vh;
+}
+/* estilos about */
+.container-about {
+    width: 90%;
+    height: 90vh;
+}
+.container-about-texto {
+    width: 50%;
+}
+/* estilos news */
+
+.container-news {
+    margin: 0;
+}
+
+.container-cards-news {
+    width: 100%;
+}
+
+.cards img {
+    width: 240px;
+    height: auto;
+}
