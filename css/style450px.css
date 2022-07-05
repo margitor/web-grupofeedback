@@ -24,16 +24,34 @@ margin-top: 0px;
 .fav-btn {
     left: 84%;
 }
+
 /* estilos about */
-.container-about {                
+.about {
+    height: 130vh;
+}
+.container-about {
     flex-direction: column-reverse;
+    height: 130vh;
 }
 .container-about-img {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-top: 50px;
 }
 
 .container-about-texto {
     width: 100%;
+}
+/* estilos news */
+.container-cards-news {
+    height: fit-content;
+    flex-wrap: nowrap;
+    justify-content: end;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.cards {
+    width: 75%;
+    height: auto;
+    display: inline-block;
 }

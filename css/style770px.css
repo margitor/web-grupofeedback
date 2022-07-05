@@ -41,7 +41,7 @@
     left: 88%;
 }
 /* estilos about */
-.container-about {                
+.container-about {
     flex-direction: column-reverse;
 }
 .container-about-img {
