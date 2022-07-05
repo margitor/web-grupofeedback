@@ -1,0 +1,39 @@
+/* estilos header y nav */
+nav {
+    width: 100%;
+    margin-top: 10px;
+}
+/* estilos main */
+.main-img {
+    max-height: 300px;
+    max-width: 300px;
+}
+.container-texto h1 {
+    line-height: 40px;
+    font-size: 34px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.container-texto h2 {
+    font-size: 16px;
+}
+.btn-contact {
+margin-top: 0px;
+}
+/* boton whatsapp */
+.fav-btn {
+    left: 84%;
+}
+/* estilos about */
+.container-about {                
+    flex-direction: column-reverse;
+}
+.container-about-img {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.container-about-texto {
+    width: 100%;
+}
