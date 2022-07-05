@@ -399,6 +399,7 @@ border-bottom: 2px solid;
     width: 100%;
     background-color: #01023f;
     padding-bottom: 50px;
+    display: flex;
 }
 .container-footer {
     width: 100%;
@@ -410,22 +411,11 @@ border-bottom: 2px solid;
 .container-footer ul {
     display: inline;
 }
-.container-enlaces {
-    width: 30%;
-    height: 50vh;
-}
-.enlaces-footer li {
-    list-style: none;
-    margin-bottom: 10px;
-}
-.enlaces-footer li a {
-    color: #D8D2CB;
-    text-decoration: none;
-}
 .container-datosContacto {
-    width: 30%;
+    width: 50%;
     height: 50vh;
     display: inline-grid;
+    justify-content: center;
 }
 .container-datosContacto h4 {
     color: #fff;
@@ -447,7 +437,7 @@ border-bottom: 2px solid;
 }
 
 .container-ubicacion {
-    width: 30%;
+    width: 50%;
     height: 50vh;
 }
 .container-ubicacion img {
