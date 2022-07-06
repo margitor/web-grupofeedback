@@ -498,9 +498,12 @@ border-bottom: 2px solid;
     width: 240px;
     height: auto;
 }
-
+.container-videos iframe{
+    height: 315px;
+    width: 560px;
 }
-@media screen and (max-width: 1024px) and (max-height: 800px){
+}
+@media screen and (max-width: 1680px) {
     
     .about {
         height: 130vh;
@@ -535,8 +538,18 @@ border-bottom: 2px solid;
 .multimedia {
     height: 130vh;
 }
+.container-multimedia {
+    height: 130vh;
 }
-@media screen and (max-width: 800px) and (max-height: 480px){
+.container-videos {
+    height: 100vh;
+}
+.container-videos iframe{
+    height: 315px;
+    width: 560px;
+}
+}
+@media screen and (max-width: 800px) {
     /* estilos main */
 .hero {
     width: 100%;
@@ -665,7 +678,7 @@ border-bottom: 2px solid;
     height: 80vh;
 }
 }
-@media screen and (max-width: 320px) and (max-height: 640px) {
+@media screen and (max-width: 420px) {
     header {
         min-height: 40px;
     }
