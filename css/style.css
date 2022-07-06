@@ -678,7 +678,7 @@ border-bottom: 2px solid;
     height: 80vh;
 }
 }
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 360px) {
     header {
         min-height: 40px;
     }
@@ -770,12 +770,12 @@ border-bottom: 2px solid;
 }
 /* estilos news */
 .news {
-    height: 300vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
 }
 .container-news {
-    height: 300vh;
+    height: 250vh;
 }
 
 .container-cards-news {
@@ -783,12 +783,14 @@ border-bottom: 2px solid;
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+
 }
 .cards {
     width: 100%;
     height: auto;
     margin-bottom: 25px;
+    flex-direction: column;
 }
 .cards h3 {
   font-size: 14px;
@@ -830,14 +832,17 @@ border-bottom: 2px solid;
     height: 80vh;
     flex-direction: column;
     align-items: center;
-    width: 260px;
-    padding: 0;
-    margin: 0;
+    width: 90%;
+    margin-left: 0;
+}
+.container-videos iframe {
+    width: 280px;
+    height: 250px;
 }
 
 /*footer*/
 .footer-contact{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 .container-footer {
