@@ -678,7 +678,7 @@ border-bottom: 2px solid;
     height: 80vh;
 }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 400px) {
     header {
         min-height: 40px;
     }
