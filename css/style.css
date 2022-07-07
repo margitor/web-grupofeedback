@@ -393,6 +393,8 @@ border-bottom: 2px solid;
 }
 .container-videos iframe {
     margin-left: 20px;
+    width: 450px;
+    height: 315px;
 }
 /*estilos footer*/
 .footer-contact {
