@@ -569,10 +569,7 @@ border-bottom: 2px solid;
 .container-news {
     height: 200vh;
     width: 100%;
-    margin-left: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .container-cards-news {
@@ -599,6 +596,9 @@ border-bottom: 2px solid;
 }
 .cards p {
     font-size: 14px;
+}
+.container-news h2 {
+    margin-left: 15px;
 }
 /* estilos social */
 .social {
