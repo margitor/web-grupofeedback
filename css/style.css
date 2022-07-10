@@ -697,14 +697,14 @@ border-bottom: 2px solid;
     /* estilos main */
 .hero {
     width: 100%;
-    height: 140vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .container-main {
-    height: 120vh;
+    height: 80vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
@@ -712,16 +712,16 @@ border-bottom: 2px solid;
 }
 
 .main-img {
-    max-height: 280px;
-    max-width: 320px;
+    height: 330px;
+    width: 350px;
     border-radius: 10px;
 }
 .fade-in-image {
-    height: 50%;
+    height: 55%;
 }
 .container-texto {
-    width: 90%;
-    height: 48%;
+    width: 80%;
+    height: 40%;
     display: flex;
     flex-direction: column;
 }
@@ -732,19 +732,20 @@ border-bottom: 2px solid;
     margin-bottom: 0px;
 }
 .container-texto h2 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
 }
 /* boton whatsapp */
 .fav-btn {
     left: 88%;
+    top: 85%;
 }
 /* estilos about */
 .about {
-    height: 230vh;
+    height: 160vh;
 }
 .container-about {
-    height: 200vh;
+    height: 120vh;
     flex-direction: column-reverse;
 }
 .container-about-img {
@@ -753,8 +754,8 @@ border-bottom: 2px solid;
     margin-top: 60px;
 }
 .mySlides {
-    max-width: 380px;
-    max-height: 340px;
+    width: 380px;
+    height: 340px;
 }
 .container-about-texto {
     width: 100%;
@@ -762,15 +763,15 @@ border-bottom: 2px solid;
 }
 /* estilos news */
 .news {
-    height: 250vh;
+    height: 180vh;
     display: flex;
     justify-content: center;
 }
 .container-news {
-    height: 200vh;
+    height: 150vh;
 }
 .container-cards-news {
-    height: 150vh;
+    height: 100vh;
     flex-wrap: wrap;
 }
 .cards {
@@ -794,32 +795,32 @@ border-bottom: 2px solid;
 
 /* estilos social */
 .social {
-    height: 300vh;
+    height: 180vh;
 }
 .container-social {
-    height: 300vh;
+    height: 150vh;
 }
 .container-feed-redes {
     flex-direction: column;
     align-items: center;
-    height: 250vh;
+    height: 150vh;
 }
 .feed {
     margin-top: 20px;
 }
 /* estilos multimedia */
 .multimedia {
-    height: 250vh;
+    height: 130vh;
 }
 .container-videos {
-    height: 150vh;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
 }
 
 /*footer*/
 .container-footer {
-    height: 80vh;
+    height: 50vh;
 }
 }
 
