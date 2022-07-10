@@ -602,16 +602,16 @@ border-bottom: 2px solid;
 }
 /* estilos social */
 .social {
-    height: 300vh;
+    height: 230vh;
 }
 .container-social {
-    height: 300vh;
+    height: 200vh;
 }
 .container-feed-redes {
     flex-direction: column;
     align-items: center;
-    height: 250vh;
-    width: 90%;
+    height: 200vh;
+    width: 100%;
 }
 .feed {
     margin-top: 20px;
