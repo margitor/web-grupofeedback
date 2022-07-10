@@ -607,6 +607,7 @@ border-bottom: 2px solid;
 .container-social {
     height: 200vh;
     width: 100%;
+    margin: 0;
 }
 .container-feed-redes {
     flex-direction: column;
@@ -617,7 +618,10 @@ border-bottom: 2px solid;
 }
 .feed {
     margin-top: 20px;
-    width: 280px;
+    width: 300px;
+}
+.container-social h2 {
+    margin-left: 15px;
 }
 /* estilos multimedia */
 .multimedia {
