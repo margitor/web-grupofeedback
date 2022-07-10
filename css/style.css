@@ -602,17 +602,17 @@ border-bottom: 2px solid;
 }
 /* estilos social */
 .social {
-    height: 230vh;
+    height: 250vh;
 }
 .container-social {
-    height: 200vh;
+    height: 180vh;
     width: 100%;
     margin: 0;
 }
 .container-feed-redes {
     flex-direction: column;
     align-items: center;
-    height: 200vh;
+    height: 180vh;
     width: 100%;
     margin: 0;
 }
@@ -626,12 +626,12 @@ border-bottom: 2px solid;
 }
 /* estilos multimedia */
 .multimedia {
-    height: 130vh;
+    height: 150vh;
 }
 .container-multimedia {
     margin: 0;
-    padding: 0;
     height: 100vh;
+    width: 100%;
 }
 .container-videos {
     height: 80vh;
