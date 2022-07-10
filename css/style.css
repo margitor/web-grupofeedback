@@ -651,15 +651,16 @@ border-bottom: 2px solid;
 }
 /*footer*/
 .footer-contact{
-    height: 120vh;
+    height: 100vh;
     width: 100%;
 }
 .container-footer {
-    height: 120vh;
+    height: 100vh;
     display: flex;
     padding-top: 0;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin-top: 20px;
 }
 .container-datosContacto {
     width: 100%;
@@ -671,6 +672,7 @@ border-bottom: 2px solid;
 .container-datosContacto h4 {
     margin-top: 0;
     margin-bottom: 0;
+    width: 100%;
 }
 .datos-contacto li {
     margin-bottom: 15px;
@@ -688,7 +690,7 @@ border-bottom: 2px solid;
     font-size: 14px;
 }
 .container-ubicacion iframe {
-    width: 260px;
+    width: 280px;
 }
 }
 @media screen and (min-width:769px) and (max-width: 1024px) {
