@@ -477,7 +477,7 @@ border-bottom: 2px solid;
         width: 200px;
     }
     nav ul li a {
-        font-size: 12px;
+        font-size: 16px;
     }
     nav {
         width: 100%;
@@ -498,6 +498,7 @@ border-bottom: 2px solid;
     flex-wrap: wrap;
 }
 .container-main {
+    width: 95%;
     height: 100vh;
     display: flex;
     flex-direction: column-reverse;
@@ -506,8 +507,8 @@ border-bottom: 2px solid;
 }
 
 .main-img {
-    max-height: 200px;
-    max-width: 220px;
+    height: auto;
+    width: 280px;
 }
 .fade-in-image {
     height: 40%;
@@ -671,7 +672,7 @@ border-bottom: 2px solid;
     width: 260px;
 }
 }
-@media screen and (min-width:768px) and (max-width: 1024px) {
+@media screen and (min-width:769px) and (max-width: 1024px) {
     /* estilos main */
 .hero {
     width: 100%;
