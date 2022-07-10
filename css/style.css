@@ -568,6 +568,8 @@ border-bottom: 2px solid;
 }
 .container-news {
     height: 200vh;
+    width: 100%;
+    margin: 0;
 }
 
 .container-cards-news {
