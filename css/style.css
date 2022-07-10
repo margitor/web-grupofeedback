@@ -562,20 +562,22 @@ border-bottom: 2px solid;
 }
 /* estilos news */
 .news {
-    height: 300vh;
+    height: 250vh;
     display: flex;
     justify-content: center;
 }
 .container-news {
-    height: 250vh;
+    height: 200vh;
 }
 
 .container-cards-news {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 .cards {
     width: 100%;
