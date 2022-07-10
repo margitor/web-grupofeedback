@@ -499,7 +499,7 @@ border-bottom: 2px solid;
 }
 .container-main {
     width: 95%;
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: flex-start;
