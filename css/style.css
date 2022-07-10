@@ -535,10 +535,10 @@ border-bottom: 2px solid;
 }
 /* estilos about */
 .about {
-    height: 250vh;
+    height: 170vh;
 }
 .container-about {
-    height: 220vh;
+    height: 150vh;
     flex-direction: column-reverse;
 }
 .container-about-img {
@@ -547,8 +547,8 @@ border-bottom: 2px solid;
     margin-top: 60px;
 }
 .mySlides {
-    max-width: 280px;
-    max-height: 260px;
+    max-width: 300px;
+    max-height: 280px;
 }
 .container-about-texto {
     width: 100%;
