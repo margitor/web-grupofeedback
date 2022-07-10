@@ -606,12 +606,14 @@ border-bottom: 2px solid;
 }
 .container-social {
     height: 200vh;
+    width: 100%;
 }
 .container-feed-redes {
     flex-direction: column;
     align-items: center;
     height: 200vh;
     width: 100%;
+    margin: 0;
 }
 .feed {
     margin-top: 20px;
