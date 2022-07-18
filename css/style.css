@@ -234,11 +234,11 @@ margin-top: 20px;
 .container-about-texto p {
     flex: 1 1 auto;
     font-size: 14px ;
-    line-height: 20px;
+    line-height: 18px;
     letter-spacing: 2px;
     color: #072227;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 .container-about-texto h2 {
     font-size: 18px;
@@ -250,9 +250,10 @@ border-bottom: 2px solid;
 }
 .container-about-texto p:nth-child(2) {
     font-size: 20px;
-    line-height: inherit;
+    line-height: 20px;
     font-family: 'Ubuntu', sans-serif;
     color: #398AB9;
+    font-weight: 400;
 }
 .container-btn-about {
   display: flex;
