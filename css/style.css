@@ -234,11 +234,11 @@ margin-top: 20px;
 .container-about-texto p {
     flex: 1 1 auto;
     font-size: 14px ;
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 2px;
     color: #072227;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 .container-about-texto h2 {
     font-size: 18px;
