@@ -30,4 +30,10 @@ function carousel() {
   setTimeout(carousel, 3000); 
 }
 
+let menuHamburguesa = document.getElementById('menuHamburguesa')
+let desplegable = document.getElementsById('desplegable')
 
+menuHamburguesa.addEventListener('click' ()=> {
+  desplegable.style.display= 'block'
+  menuHamburguesa.style.display = 'none'
+} )
