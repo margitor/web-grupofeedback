@@ -482,6 +482,88 @@ border-bottom: 2px solid;
     opacity: 1;
     transform: translate(0, 0);
 }
+
+/*integrales.html*/
+.audiovisual {
+    width: 100%;
+    height: 120vh;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+.container-audiovisual {
+    width: 90%;
+    height: 100vh;
+    margin: 100px 70px 70px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-audiovisual h2 {
+    font-size: 18px;
+    font-weight: 500;
+color: #F15412;
+margin-bottom: 60px;
+border-bottom: 2px solid;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+.container-audiovisual p {
+    font-size: 50px;
+    color: #F15412;
+}
+.container-audiovisual img {
+    width: 100px;
+    height: 100px;
+}
+/*encuestas*/
+.section-encuestas {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+.container-encuestas {
+    width: 90%;
+    height: 90vh;
+    margin: 100px 70px 70px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-encuestas p {
+    font-size: 50px;
+    color: #F15412;
+}
+.section-encuestas img {
+    width: 100px;
+    height: 100px;
+}
+/* 20 Años*/
+.section-20Años {
+    width: 100%;
+    height: 100vh;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+.container-20Años {
+    width: 90%;
+    height: 90vh;
+    margin: 100px 70px 70px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-20Años p {
+    font-size: 50px;
+    color: #F15412;
+}
+.section-20Años img {
+    width: 100px;
+    height: 100px;
+}
 /*Media Query*/
 @media screen and (min-width: 320px) and (max-width: 768px ) {
     header {
