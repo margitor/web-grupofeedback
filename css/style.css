@@ -338,6 +338,23 @@ border: 1px solid rgba(255, 255, 255, 0.13);
     height: 35px;
     margin-bottom: 10px;
 }
+.btn-noticia {
+    height: 30px;
+    width: 80%;
+    border-radius: 20px;
+    font-weight: 700;
+    text-decoration: none;
+text-align: center;
+padding-top: 9px;
+background-color: #EEEEEE;
+color: #F15412;
+margin-bottom: 10px;
+
+}
+.btn-noticia:hover {
+    background-color: #D8D2CB ;
+}
+
 /* estilos social */
 .social {
     width: 100%;
