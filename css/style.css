@@ -416,54 +416,6 @@ border-bottom: 2px solid;
 -webkit-box-shadow: 0px 4px 12px -3px rgba(117,115,115,0.72);
 -moz-box-shadow: 0px 4px 12px -3px rgba(117,115,115,0.72);
 }
-/* estilos multimedia 
-.multimedia {
-    width: 100%;
-    height: 110vh;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-}
-.container-multimedia {
-    width: 90%;
-    height: 80vh;
-    margin: 90px 70px 70px 90px;
-}
-.container-multimedia h2 {
-    font-size: 18px;
-    font-weight: 500;
-color: #F15412;
-margin-bottom: 60px;
-border-bottom: 2px solid;
-    padding-bottom: 10px;
-    width: fit-content;
-}
-.container-videos {
-    width: 90%;
-    height: 60vh;
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 35px;
-}
-.container-videos iframe {
-    margin-left: 20px;
-    width: 450px;
-    height: 315px;
-}
-.container-cortaLaBocha {
-    width: 90%;
-    height: 5vh;
-    display: flex;
-    align-items: center;
-}
-.container-cortaLaBocha img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-.container-cortaLaBocha a{
-    font-size: 18px;
-}*/
 
 /*estilos footer*/
 .footer-contact {
@@ -581,21 +533,11 @@ border-bottom: 2px solid;
     height: 90vh;
     filter: brightness(110%);
 }
-.slide {
+.video-integrales {
     width: 550px;
     height: auto;
-    animation: slide 4s; 
-    position: absolute;
     border-radius: 10px;
 }
-@keyframes slide {
-    from {
-      transform: translate(-50%);
-    }
-    to {
-      transform: translate(0%);
-    }
-  }
 .container-txt-img {
     width: 100%;
     height: 90vh;
@@ -703,11 +645,11 @@ border-bottom: 2px solid;
 .sonido-txt {
     width: 50%;
 }
-.sonido-img img {
+.sonido-video video {
     width: 550px;
     border-radius: 10px;
 }
-.sonido-img {
+.sonido-video {
     width: 45%;
 }
 .sonido-txt ul {
@@ -854,13 +796,14 @@ border-bottom: 2px solid;
     gap: 20px;
 }
 .fotografia-img img {
-    width: 350px;
+    width: 340px;
     border-radius: 10px;
 }
-#fotografiaImg2 {
+#fotografiaVideo2 {
     position: relative;
     bottom: 8%;
-    width: 380px;
+    width: 400px;
+    border-radius: 10px;
 }
 #fotografiaImg1 {
     position: relative;
@@ -940,28 +883,78 @@ border-bottom: 2px solid;
     left: 53%;
 }
 /*encuestas*/
-.section-encuestas {
+.feedbackMovil {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: #EEEEEE;
     display: flex;
-    justify-content: center;
 }
-.container-encuestas {
+.container-feedbackMovil {
     width: 90%;
-    height: 90vh;
+    height: 100vh;
     margin: 100px 70px 70px 90px;
+}
+.container-feedbackMovil h2 {
+    font-size: 18px;
+    font-weight: 500;
+color: #F15412;
+margin-bottom: 60px;
+border-bottom: 2px solid;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+.feedbackMovil-txt-img {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.feedbackMovil-txt {
+    width: 50%;
+    height: 100vh;
+}
+
+.feedbackMovil-txt ul {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 10px;
 }
-.section-encuestas p {
-    font-size: 50px;
-    color: #F15412;
+.feedbackMovil-txt ul li {
+    margin-left: 20px;
+    line-height: 38px;
 }
-.section-encuestas img {
-    width: 100px;
-    height: 100px;
+.feedbackMovil-txt p {
+    margin-bottom: 10px;
+}
+.feedbackMovil-txt p:nth-child(4) {
+    color: #398AB9;
+}
+.feedbackMovil-img {
+    width: 45%;
+    display: flex;
+}
+.feedbackMovil-img-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feedbackMovil-img img {
+    width: 350px;
+    border-radius: 10px;
+}
+#feedbackMovilVideo2 {
+    position: relative;
+    bottom: 10%;
+    left: 5%;
+    width: 420px;
+    border-radius: 10px;
+}
+#feedbackMovilImg1 {
+    position: relative;
+    left: 53%;
 }
 /* 20 Años*/
 .section-20Años {
@@ -1050,6 +1043,10 @@ border-bottom: 2px solid;
 }
 /* boton whatsapp */
 .fav-btn {
+    left: 80%;
+}
+/* boton youtube */
+.fav-btn-yt {
     left: 80%;
 }
 /* estilos about */
