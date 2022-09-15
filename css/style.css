@@ -426,7 +426,7 @@ border-bottom: 2px solid;
 }
 .container-footer {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: flex-end;
     padding-top: 70px;
@@ -478,6 +478,11 @@ border-bottom: 2px solid;
 }
 .container-ubicacion iframe {
     border-radius: 10px;
+}
+.img-topadora-footer {
+    height: 90px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 /* estilos animacion de tag de cada section */
 .tag {
@@ -606,6 +611,7 @@ border-bottom: 2px solid;
 }
 .container-thumbnail img {
     width: 200px;
+    height: 150px;
     border: 1px solid #C0C0C0;
     padding: 5px;
     border-radius: 5px;
@@ -949,6 +955,28 @@ border-bottom: 2px solid;
     position: relative;
     left: 53%;
 }
+/*Multimedia*/
+.container-multimedia {
+    width: 90%;
+    height: 100vh;
+}
+.multimedia-videos video {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+.multimedia-videos iframe {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+.multimedia-videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
 /* 20 Años*/
 .section-20Años {
     width: 100%;
@@ -1144,11 +1172,11 @@ border-bottom: 2px solid;
 }
 /*footer*/
 .footer-contact{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 .container-footer {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     padding-top: 0;
     flex-direction: column;
@@ -1157,7 +1185,7 @@ border-bottom: 2px solid;
 }
 .container-datosContacto {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     display: inline-grid;
     justify-content: space-between;
     margin-left: 20px;
@@ -1456,7 +1484,7 @@ border-bottom: 2px solid;
 
 /*footer*/
 .container-footer {
-    height: 50vh;
+    height: 60vh;
 }
 }
 
