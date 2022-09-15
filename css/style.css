@@ -980,26 +980,34 @@ border-bottom: 2px solid;
 /* 20 Años*/
 .section-20Años {
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     background-color: #EEEEEE;
     display: flex;
     justify-content: center;
 }
 .container-20Años {
     width: 90%;
-    height: 90vh;
+    height: 100vh;
     margin: 100px 70px 70px 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section-20Años p {
-    font-size: 50px;
+.section-20Años h2 {
+    font-size: 30px;
     color: #F15412;
+    padding: 15px;
 }
 .section-20Años img {
-    width: 100px;
+    width: auto;
     height: 100px;
+    padding: 10px;
+}
+.container-logos-años {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
 }
 /*Media Query*/
 @media screen and (min-width: 320px) and (max-width: 768px ) {
@@ -1368,6 +1376,13 @@ border-bottom: 2px solid;
 }
 .container-multimedia {
     height: 80vh;
+}
+/*20 años*/
+.section-20Años {
+    height: fit-content;
+}
+.container-20Años {
+    height: fit-content;
 }
 }
 @media screen and (min-width:769px) and (max-width: 1024px) {
